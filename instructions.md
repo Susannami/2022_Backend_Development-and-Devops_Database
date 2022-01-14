@@ -11,7 +11,7 @@ In this course, we use MariaDB as our Database Management System (DBMS). These i
  * Click next and then you are prompted with a list of packages you can install
   * If no packages are listed, select "Full" from "View" dropdown
   * select mysql and mysql-server
-   * Install teh version 10.3.14
+    * Install the version 10.3.14
  *  Click Next until Cygwin starts installing packages
  *  Close Cygwin installer by clicking "Finish"
 2. Configure MariaDB
