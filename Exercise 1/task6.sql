@@ -1,6 +1,1 @@
--- Create a new table called review. The table should have the following columns:
--- - id
--- - name of the reviewer, not null
--- - headline
--- - review text
--- - a reference to the album whick is reviewed, not null
+-- Fetch all the tracks which name starts with the word "The" and are at least one minute long.
