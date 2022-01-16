@@ -1,5 +1,6 @@
 -- Insert a new album called "The Final Frontier" and all the tracks for that
--- album. Information of tracks is listed below.
+-- album. Information of tracks is listed below. The artist is Iron Maiden (id 1).
+-- The create_music.sql file will help you to do this task.
 
 -- 1. Satellite 15... The Final Frontier 8.40
 -- 2. El Dorado 6.49
