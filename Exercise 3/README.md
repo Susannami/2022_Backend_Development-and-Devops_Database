@@ -8,10 +8,10 @@ mysql -u root -p < northwind-default-current-timestamp.sql
 mysql -u root -p < northwind-data.sql
 ```
 
-Scoring:
+## Scoring:
 Some of the tasks are more demanding than the others. Thus they are graded differently. Grading is listed below:
-Task 1: 1 point
-Task 2: 2 points
-Task 3: 1 point
-Task 4: 2 points
-Task 5: 2 points
+* Task 1: 1 point
+* Task 2: 2 points
+* Task 3: 1 point
+* Task 4: 2 points
+* Task 5: 2 points
