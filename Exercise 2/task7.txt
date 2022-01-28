@@ -1,0 +1,1 @@
+Explain the difference bitween INNER JOIN, LEFT (OUTER) JOIN and RIGHT (OUTER) JOIN.

@@ -3,9 +3,8 @@
 -- - name of the reviewer, not null
 -- - headline
 -- - review text
--- - a reference to the album whick is reviewed, not null
-
-CREATE TABLE review(
+-- - a reference to the album id which is reviewed, not null
+CREATE TABLE IF NOT EXISTS review(
 	id INT AUTO_INCREMENT PRIMARY KEY,
 	name VARCHAR(100) NOT NULL,
 	headline VARCHAR(75),
