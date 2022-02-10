@@ -4,5 +4,5 @@
 SELECT artist.name as "Artist", COUNT(album.id) as "Album count"
 FROM artist
 INNER JOIN album ON album.artist_id = artist.id
-GROUP BY album.artist_id
+GROUP BY artist.id
 ORDER BY artist.name;
