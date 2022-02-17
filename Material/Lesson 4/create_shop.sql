@@ -61,7 +61,14 @@ DELETE FROM customers WHERE id=10;
 
 DELETE FROM employees;
 
-CREATE TABLE order_details( product_id INT NOT NULL, order_id INT NOT NULL, count INT, PRIMARY KEY(product_id, order_id), FOREIGN KEY(product_id) REFERENCES products(id), FOREIGN KEY(order_id) REFERENCES orders(id));
+CREATE TABLE order_details(
+	product_id INT NOT NULL,
+	order_id INT NOT NULL,
+	count INT,
+	PRIMARY KEY(product_id, order_id),
+	FOREIGN KEY(product_id) REFERENCES products(id),
+	FOREIGN KEY(order_id) REFERENCES orders(id)
+);
 
 INSERT INTO products(name, description, availability, price) VALUES 
 ("Fancy keyboard", "Shines in all rainbow colours", 10, 89.95), 
