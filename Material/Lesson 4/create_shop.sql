@@ -60,3 +60,17 @@ UPDATE customers SET id=10 WHERE id=1;
 DELETE FROM customers WHERE id=10;
 
 DELETE FROM employees;
+
+CREATE TABLE order_details( product_id INT NOT NULL, order_id INT NOT NULL, count INT, PRIMARY KEY(product_id, order_id), FOREIGN KEY(product_id) REFERENCES products(id), FOREIGN KEY(order_id) REFERENCES orders(id));
+
+INSERT INTO products(name, description, availability, price) VALUES 
+("Fancy keyboard", "Shines in all rainbow colours", 10, 89.95), 
+("Gaming mouse", "Incredibly high DPI: 25k", 25, 44.99), 
+('32" gaming monitor', "Fast 165Hz monitor with ultra accurate colours", 2, 699.95), 
+("Hifi headphones", "Experience music like never before! NOT suitable for gaming!", 1, 99000);
+
+INSERT INTO customers(first_name, last_name, email) VALUES ("Simon", "Shopper", "simon@shopper.com");
+INSERT INTO employees(first_name, last_name, email, phone) VALUES ("Erika", "Example", "erika@company.com", "0302001100030303");
+
+INSERT INTO orders(customer_id, employee_id) VALUES (12,2);
+INSERT INTO order_details(product_id, order_id, count) VALUES (4, 3, 1);
