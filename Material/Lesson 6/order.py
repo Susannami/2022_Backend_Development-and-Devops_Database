@@ -26,6 +26,7 @@ query = "SELECT availability FROM products WHERE id=?;"
 try:
   cursor.execute(query, (product,))
   row = cursor.fetchone()
+  # TODO: Add error handling!
   available = int(row[0])
 
   if available >= product_count:

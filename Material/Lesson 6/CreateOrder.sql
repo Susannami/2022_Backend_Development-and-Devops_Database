@@ -26,6 +26,8 @@ BEGIN
 -- Declare all the variables at the beginning of the procedure
 DECLARE productsAvailable INT DEFAULT 0;
 
+-- Are we running the application in debug mode (development time -> true). Change the value to false when
+-- you publish the application.
 DECLARE isDebug BOOLEAN DEFAULT false;
 
 -- Declare error hanlers here as well
