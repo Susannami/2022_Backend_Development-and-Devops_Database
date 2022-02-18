@@ -61,6 +61,7 @@ DELETE FROM customers WHERE id=10;
 
 DELETE FROM employees;
 
+-- New lines 17.2.
 CREATE TABLE order_details(
 	product_id INT NOT NULL,
 	order_id INT NOT NULL,
