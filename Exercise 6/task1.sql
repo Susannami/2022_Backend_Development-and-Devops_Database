@@ -33,7 +33,7 @@ and money go back to it acc. We start from beginning of transaction, from transa
 it was before transaction. So all the quiries included in TRANSACTION have to be executed successfully.
 
 It is not enough because we should COMMIT each transaction, like in github, it means it saves, makes it permanently
-in database. It is good always to COMMIT or ROLLBACK after each TRANSACTION.
+in database. It is good always to COMMIT after each TRANSACTION.
 
 1)
 Answer:
